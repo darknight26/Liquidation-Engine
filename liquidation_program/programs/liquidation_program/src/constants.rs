@@ -1,0 +1,10 @@
+pub const PRICE_PRECISION: u64 = 1_000_000; // 1e6
+pub const BPS_DENOM: u64 = 10_000;
+pub const LIQUIDATOR_REWARD_BPS: u64 = 250; // 2.5%
+pub const VAULT_SEED: &[u8] = b"vault";
+pub const VAULT_AUTH_SEED: &[u8] = b"vault-auth";
+pub const INSURANCE_SEED: &[u8] = b"insurance";
+pub const INSURANCE_AUTH_SEED: &[u8] = b"insurance-auth";
+pub const LIQ_RECORD_SEED: &[u8] = b"liq_record";
+pub const MAX_ORACLE_STALENESS: i64 = 30; // seconds
+pub const MAX_CONF_FACTOR: i64 = 100; // conf < price/100 (1%)
